@@ -1,0 +1,1 @@
+{"version":3,"file":"AngleRadMath.d.ts","sourceRoot":"","sources":["../src/AngleRadMath.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,QAAQ,EAAC,MAAM,YAAY,CAAC;AAEpC,yBAAiB,YAAY,CAAC;IAc1B,SAAgB,eAAe,CAAC,SAAS,EAAE,QAAQ,EAAE,OAAO,EAAE,QAAQ,UAWrE;IAYD,SAAgB,SAAS,CAAC,KAAK,EAAE,QAAQ,GAAG,QAAQ,CASnD;CACJ"}
