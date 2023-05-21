@@ -1,1 +1,0 @@
-{"version":3,"file":"DirectionMath.d.ts","sourceRoot":"","sources":["../src/DirectionMath.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAyB,MAAM,aAAa,CAAC;AAE/D,yBAAiB,aAAa,CAAC;IAC3B,SAAgB,OAAO,CAAC,KAAK,EAAE,SAAS,GAAG,SAAS,CAYnD;IAED,SAAgB,mBAAmB,CAAC,GAAG,KAAA,GAAG,SAAS,CAgBlD;CACJ"}
