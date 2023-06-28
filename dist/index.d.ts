@@ -23,7 +23,10 @@ declare namespace AreaMath {
     function equals(area1: Area, area2: Area): boolean;
     function clone(area: Area): Area;
     function forEach(area: Area, callback: (x: number, y: number) => void, increment?: number): void;
-    function mk(): Area;
+    function mk(from?: Point2, to?: {
+        x: number;
+        y: number;
+    }): Area;
 }
 
 declare const UP = "up";
