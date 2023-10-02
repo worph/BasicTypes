@@ -67,4 +67,8 @@ export namespace AreaMath {
         }
         return {from, to};
     }
+
+    export function computeSurfaceArea(area: Area): number {
+        return (area.to.x - area.from.x + 1) * (area.to.y - area.from.y + 1);
+    }
 }

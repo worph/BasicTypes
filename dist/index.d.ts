@@ -27,6 +27,7 @@ declare namespace AreaMath {
         x: number;
         y: number;
     }): Area;
+    function computeSurfaceArea(area: Area): number;
 }
 
 declare const UP = "up";
