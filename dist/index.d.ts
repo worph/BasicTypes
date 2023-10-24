@@ -16,6 +16,7 @@ interface Area {
 }
 
 declare namespace AreaMath {
+    function isValid(area: Area): boolean;
     function center(area: Area): Point2;
     function size(area: Area): Point2;
     function containsPoint(area: Area, point: Point2): boolean;

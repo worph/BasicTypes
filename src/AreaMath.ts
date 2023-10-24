@@ -2,7 +2,13 @@ import {Area} from "./Area";
 import {Point2} from "./Point2";
 import {Point2Math} from "./Point2Math";
 
+
+
 export namespace AreaMath {
+    export function isValid(area: Area) {
+        return area.to.x >= area.from.x && area.to.y >= area.from.y;
+    }
+
     export function center(area: Area): Point2 {
         return {
             x: Math.floor((area.from.x + area.to.x) / 2),
