@@ -16,6 +16,10 @@ export namespace AreaMath {
         }
     }
 
+    /**
+     * Area is considered inclusive of the points "from" and "to"
+     * @param area
+     */
     export function size(area: Area): Point2 {
         return {
             x: (area.to.x - area.from.x) + 1,
